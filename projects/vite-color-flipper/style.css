@@ -20,7 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
 }
-
 * {
   box-sizing: border-box;
 }
@@ -30,9 +29,46 @@ html,body, #app {
   min-height: 100vh;
 }
 
-.block {
+.block-title {
   background-color: #242424;
   color: rgba(255, 255, 255, 0.87);
   padding: 16px;
-  width: ;
+  width: 100%;
+  text-align: center;
 }
+
+.block {
+  display: flex;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+}
+.block button {
+  background-color: yellowgreen;
+  width: 100px;
+  border: 1px solid white;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#color-picker {
+  min-width: 12.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
