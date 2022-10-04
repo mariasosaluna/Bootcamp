@@ -41,21 +41,20 @@ html,body, #app {
   display: flex;
   background-color: #242424;
   color: rgba(255, 255, 255, 0.87);
-  padding: 16px;
   width: 100%;
   text-align: center;
 }
 .block button {
   background-color: yellowgreen;
-  width: 100px;
   border: 1px solid white;
-  height: 100px;
+  height: 50px;
   margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: auto;
+  cursor: pointer;
 }
-
+.block button:hover {
+border: 1px solid black ;
+}
 #app {
   display: flex;
   align-items: center;
