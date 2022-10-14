@@ -43,3 +43,4 @@ const newAlien = {...alien, mutacion: mutation};
 console.log(newAlien);
 
 
+
