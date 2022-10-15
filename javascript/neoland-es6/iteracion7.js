@@ -25,7 +25,8 @@ const aproved = exams.reduce((acc, itemASumar) => {
     if (itemASumar.score >= 5) {
         return acc + itemASumar.score;
     }
-return acc;
+    
+    return acc;
 }, 0);
 console.log(aproved);
 
