@@ -1,7 +1,6 @@
-/* 2.3 En base al ejercicio anterior. Crea dinamicamente un elemento  por cada petición 
-a la api que diga...'El nombre X tiene un Y porciento de ser de Z' etc etc.
-EJ: El nombre Pepe tiene un 22 porciento de ser de ET y un 6 porciento de ser 
-de MZ. */
+/*2.4 En base al ejercicio anterior, crea un botón con el texto 'X' para cada uno 
+de los p que hayas insertado y que si el usuario hace click en este botón 
+eliminemos el parrafo asociado.*/
 
 const baseUrl = 'https://api.nationalize.io';
 const container = document.querySelector('.container');
@@ -17,7 +16,13 @@ button.addEventListener('click', () => {
     .then((data) => {
       data.country.forEach((element) => {
         const countryItem = document.createElement('p');
+        const removeButton = document.createElement('button');
+        removeButton.innerHTML = 'X';
         countryItem.innerHTML = `El nombre ${data.name} tiene un ${element.probability} porciento de ser de ${element.country_id}`;
+        removeButton.addEventListener('click', () => {
+          countryItem.remove();
+        });
+        countryItem.appendChild(removeButton);
         container.appendChild(countryItem);
       });
     });
