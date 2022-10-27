@@ -27,7 +27,7 @@
       "name": "Bichon Maltés", 
       "size": "tiny(0-5kg)",
       "hair": "long",
-      "personality": "easy",
+      "personality": "easy, they love company",
       "activity": "medium",
       "image": "https://curiosfera-animales.com/wp-content/uploads/2018/10/Car%C3%A1cter-del-bich%C3%B3n-malt%C3%A9s.jpg",
       "excercice": "30 minutes of playing time",
@@ -48,10 +48,10 @@
      },
      {
       "id": 5, 
-      "name": "Pastor Alemán", 
+      "name": "German Shepherd", 
       "size": "large(25-40kg)",
       "hair": "medium",
-      "personality": "friendly",
+      "personality": "friendly, protector, good with children",
       "activity": "high",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pastor_aleman_a.jpg",
       "excercice": "1-2 hours of high excercice every day",
@@ -59,16 +59,39 @@
 
      },{
       "id": 6, 
-      "name": "Gran Danés", 
+      "name": "Great Dane", 
       "size": "giant(+40kg)",
       "hair": "short",
-      "personality": "friendly",
+      "personality": "friendly, too strong for children",
       "activity": "low",
       "image": "https://nfnatcane.es/blog/wp-content/uploads/2020/01/gran-dan%C3%A9s-posando.jpg",
       "excercice": "1-2 hours of high excercice every day",
       "description": "Not recommended in a Family with childrens. The Chihuahua is a tiny dog with a huge personality. A national symbol of Mexico, these alert and amusing purse dogs stand among the oldest breeds of the Americas, with a lineage going back to the ancient kingdoms of pre-Columbian times. The Chihuahua is a balanced, graceful dog of terrier-like demeanor, weighing no more than 6 pounds. Even tiny dogs require training, and without it this clever scamp will rule your household like a little Napoleon. "
+     },
+      {
+        "id": 7, 
+        "name": "Irish Wolfhound", 
+        "size": "giant(+40kg)",
+        "hair": "wire-haired",
+        "personality": "friendly, protector, good with children",
+        "activity": "medium",
+        "image": "https://as2.ftcdn.net/v2/jpg/02/22/18/87/1000_F_222188721_7XsTGctlecajiNXoWavch1doc6cOW4qU.jpg",
+        "excercice": "1 hour of medium excercice every day",
+        "description": "It is a dog very attached to its owners, which makes it a good protector. It is also calm and docile, ideal for living with children and other pets. It has a strong herding and hunting instinct, and appreciates long walks and frequent field trips."
+       },
+       {
+        "id": 8, 
+        "name": "chinese crested", 
+        "size": "small(5-10kg)",
+        "hair": "hairless",
+        "personality": "friendly, good with people, docile, they love company",
+        "activity": "low",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/IndyStands.jpg",
+        "excercice": "30 minutes of low excercice every day",
+        "description": "Although the Chinese Crested requires special care to keep its skin and coat in perfect condition, it is a perfect breed of dog for beginners, since its intelligence and docile nature make training it a simple task. Of course, in order to adopt this dog it is essential to have time, because it cannot spend long hours alone."
+       }
 
-     }
+     
   ]
 }     
 
